@@ -46,12 +46,21 @@
 
 Focused on **Go** and **distributed systems**, I like owning products end-to-end — from database schema to deploy. On a mission to become a **world-class Backend Engineer** while shipping things people actually use.
 
-|  |  |
-|:--|:--|
-| **Building** | Task Manager · IdeaPulse · Go URL Shortener · PathBridge |
-| **Exploring** | Distributed Systems · Cloud-Native · Applied AI |
-| **Leveling up** | Docker · Redis · gRPC · System Design |
-| **Off-screen** | Gym · Football · Gaming · Startups |
+<table>
+  <tr>
+    <td valign="middle">
+      <table>
+        <tr><td valign="top"><b>Building</b></td><td valign="top">&nbsp;&nbsp;Task Manager · IdeaPulse · Go URL Shortener · PathBridge</td></tr>
+        <tr><td valign="top"><b>Exploring</b></td><td valign="top">&nbsp;&nbsp;Distributed Systems · Cloud-Native · Applied AI</td></tr>
+        <tr><td valign="top"><b>Leveling up</b></td><td valign="top">&nbsp;&nbsp;Docker · Redis · gRPC · System Design</td></tr>
+        <tr><td valign="top"><b>Off-screen</b></td><td valign="top">&nbsp;&nbsp;Gym · Football · Gaming · Startups</td></tr>
+      </table>
+    </td>
+    <td valign="middle" align="center" width="300">
+      <img src="./assets/about.svg" width="272" alt="Distributed systems — backend by design (api · db · cache · queue · svc · edge)" />
+    </td>
+  </tr>
+</table>
 
 <p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 

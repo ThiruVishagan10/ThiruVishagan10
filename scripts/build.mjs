@@ -258,7 +258,7 @@ function buildReadme(channels) {
     projRows += `  <tr>\n    <td width="50%">\n${projectCells[i]}\n    </td>\n    <td width="50%">\n${projectCells[i + 1] || ''}\n    </td>\n  </tr>\n`;
   }
 
-  const facts = cfg.about.facts.map(f => `| **${f.label}** | ${f.value} |`).join('\n');
+  const factsRows = cfg.about.facts.map(f => `        <tr><td valign="top"><b>${esc(f.label)}</b></td><td valign="top">&nbsp;&nbsp;${esc(f.value)}</td></tr>`).join('\n');
 
   const contactCells = channels.map(ch =>
     `    <td align="center"><a href="${escAttr(ch.href)}"><img src="./assets/contact/${ch.key}.svg" height="54" alt="${escAttr(ch.label)}" /></a></td>`
@@ -312,9 +312,18 @@ ${contactCells}
 
 ${cfg.about.body}
 
-|  |  |
-|:--|:--|
-${facts}
+<table>
+  <tr>
+    <td valign="middle">
+      <table>
+${factsRows}
+      </table>
+    </td>
+    <td valign="middle" align="center" width="300">
+      <img src="./assets/about.svg" width="272" alt="Distributed systems — backend by design (api · db · cache · queue · svc · edge)" />
+    </td>
+  </tr>
+</table>
 
 <p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 

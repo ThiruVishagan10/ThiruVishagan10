@@ -1,0 +1,78 @@
+<svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg"
+     font-family="'SF Mono','JetBrains Mono',Consolas,monospace">
+  <title>Distributed systems — backend by design</title>
+  <defs>
+    <radialGradient id="hub" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#FFF6D6"/>
+      <stop offset="0.5" stop-color="#E8C25A"/>
+      <stop offset="1" stop-color="#8A6A1C"/>
+    </radialGradient>
+    <radialGradient id="sat" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#F3D272"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </radialGradient>
+    <filter id="gl" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ring edges (hexagon) -->
+  <g stroke="#E8C25A" stroke-opacity="0.16" stroke-width="1">
+    <line x1="245" y1="140" x2="197.5" y2="57.7"/>
+    <line x1="197.5" y1="57.7" x2="102.5" y2="57.7"/>
+    <line x1="102.5" y1="57.7" x2="55" y2="140"/>
+    <line x1="55" y1="140" x2="102.5" y2="222.3"/>
+    <line x1="102.5" y1="222.3" x2="197.5" y2="222.3"/>
+    <line x1="197.5" y1="222.3" x2="245" y2="140"/>
+  </g>
+  <!-- spokes -->
+  <g stroke="#E8C25A" stroke-opacity="0.28" stroke-width="1">
+    <line x1="150" y1="140" x2="245" y2="140"/>
+    <line x1="150" y1="140" x2="197.5" y2="57.7"/>
+    <line x1="150" y1="140" x2="102.5" y2="57.7"/>
+    <line x1="150" y1="140" x2="55" y2="140"/>
+    <line x1="150" y1="140" x2="102.5" y2="222.3"/>
+    <line x1="150" y1="140" x2="197.5" y2="222.3"/>
+  </g>
+
+  <!-- travelling data packets -->
+  <g fill="#FBEBB0" filter="url(#gl)">
+    <circle r="2.6"><animateMotion dur="2.2s" begin="0s"    repeatCount="indefinite" path="M150,140 L245,140"/></circle>
+    <circle r="2.6"><animateMotion dur="2.4s" begin="-0.6s" repeatCount="indefinite" path="M197.5,57.7 L150,140"/></circle>
+    <circle r="2.6"><animateMotion dur="2.1s" begin="-1.1s" repeatCount="indefinite" path="M150,140 L102.5,57.7"/></circle>
+    <circle r="2.6"><animateMotion dur="2.5s" begin="-0.3s" repeatCount="indefinite" path="M55,140 L150,140"/></circle>
+    <circle r="2.6"><animateMotion dur="2.3s" begin="-1.4s" repeatCount="indefinite" path="M150,140 L102.5,222.3"/></circle>
+    <circle r="2.6"><animateMotion dur="2.0s" begin="-0.9s" repeatCount="indefinite" path="M197.5,222.3 L150,140"/></circle>
+  </g>
+
+  <!-- satellite nodes -->
+  <g>
+    <g transform="translate(245 140)"><circle r="12" fill="none" stroke="#E8C25A" stroke-width="1.5"><animate attributeName="r" values="12;19;12" dur="3s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="3s" begin="0s" repeatCount="indefinite"/></circle><circle r="8" fill="url(#sat)"/></g>
+    <g transform="translate(197.5 57.7)"><circle r="12" fill="none" stroke="#E8C25A" stroke-width="1.5"><animate attributeName="r" values="12;19;12" dur="3s" begin="-0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="3s" begin="-0.5s" repeatCount="indefinite"/></circle><circle r="8" fill="url(#sat)"/></g>
+    <g transform="translate(102.5 57.7)"><circle r="12" fill="none" stroke="#E8C25A" stroke-width="1.5"><animate attributeName="r" values="12;19;12" dur="3s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="3s" begin="-1s" repeatCount="indefinite"/></circle><circle r="8" fill="url(#sat)"/></g>
+    <g transform="translate(55 140)"><circle r="12" fill="none" stroke="#E8C25A" stroke-width="1.5"><animate attributeName="r" values="12;19;12" dur="3s" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="3s" begin="-1.5s" repeatCount="indefinite"/></circle><circle r="8" fill="url(#sat)"/></g>
+    <g transform="translate(102.5 222.3)"><circle r="12" fill="none" stroke="#E8C25A" stroke-width="1.5"><animate attributeName="r" values="12;19;12" dur="3s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="3s" begin="-2s" repeatCount="indefinite"/></circle><circle r="8" fill="url(#sat)"/></g>
+    <g transform="translate(197.5 222.3)"><circle r="12" fill="none" stroke="#E8C25A" stroke-width="1.5"><animate attributeName="r" values="12;19;12" dur="3s" begin="-2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="3s" begin="-2.5s" repeatCount="indefinite"/></circle><circle r="8" fill="url(#sat)"/></g>
+  </g>
+
+  <!-- node labels -->
+  <g font-size="9" fill="#A98F4A" text-anchor="middle">
+    <text x="266" y="143">api</text>
+    <text x="210" y="44">db</text>
+    <text x="90"  y="44">cache</text>
+    <text x="30"  y="143">queue</text>
+    <text x="90"  y="243">svc</text>
+    <text x="210" y="243">edge</text>
+  </g>
+
+  <!-- central core -->
+  <circle cx="150" cy="140" r="16" fill="none" stroke="#E8C25A" stroke-width="1.5">
+    <animate attributeName="r" values="16;28;16" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;0;0.55" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="140" r="15" fill="url(#hub)" filter="url(#gl)"/>
+  <circle cx="150" cy="140" r="15" fill="none" stroke="#FFF6D6" stroke-opacity="0.6" stroke-width="1"/>
+
+  <!-- caption -->
+  <text x="150" y="290" text-anchor="middle" font-size="10" letter-spacing="1" fill="#8C846F">// distributed by design</text>
+</svg>
