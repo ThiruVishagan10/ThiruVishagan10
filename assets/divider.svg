@@ -1,29 +1,10 @@
-<svg viewBox="0 0 1200 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation" preserveAspectRatio="none">
+<svg viewBox="0 0 1200 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation" preserveAspectRatio="none">
   <defs>
-    <linearGradient id="dlineG" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0"   stop-color="#E8C25A" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#E8C25A" stop-opacity="0.6"/>
-      <stop offset="0.5" stop-color="#C89B32" stop-opacity="0.6"/>
-      <stop offset="1"   stop-color="#8A6A1C" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="dsheenG" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0"   stop-color="#FFF6D6" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#FFF6D6" stop-opacity="0.95"/>
-      <stop offset="1"   stop-color="#FFF6D6" stop-opacity="0"/>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0"    stop-color="#E8C25A" stop-opacity="0"/>
+      <stop offset="0.5"  stop-color="#E8C25A" stop-opacity="0.85"/>
+      <stop offset="1"    stop-color="#E8C25A" stop-opacity="0"/>
     </linearGradient>
   </defs>
-
-  <rect x="0" y="19" width="1200" height="2" fill="url(#dlineG)"/>
-
-  <rect x="0" y="19" width="240" height="2" fill="url(#dsheenG)" opacity="0.75">
-    <animate attributeName="x" values="-240;1200" dur="6s" repeatCount="indefinite"/>
-  </rect>
-
-  <g transform="translate(600 20)">
-    <circle r="4" fill="#0A0A0B" stroke="#E8C25A" stroke-width="1.5"/>
-    <circle r="4" fill="none" stroke="#E8C25A" stroke-width="1.5">
-      <animate attributeName="r" values="4;9;4" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <rect x="0" y="11" width="1200" height="2" fill="url(#goldLine)"/>
 </svg>
