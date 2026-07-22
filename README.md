@@ -7,7 +7,7 @@
 
 <!-- ══════════ 01 · HERO ══════════ -->
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="PROJECT SELENE — Vishagan, Software Engineer" />
+  <img src="./assets/banner.svg" width="88%" alt="PROJECT SELENE — Vishagan, Software Engineer" />
 </p>
 
 <!-- hover the nav for a little terminal flavour · you're already reading the source, nice -->
@@ -20,12 +20,23 @@
   <a href="#-contact" title="./say-hi.sh"><samp>contact</samp></a>
 </p>
 
+<!-- ══════════ CONTACT · prioritised, top of profile ══════════ -->
+<a id="-contact"></a>
+<p align="center"><sub><samp>❯ ./say-hi.sh</samp></sub></p>
+<table align="center">
+  <tr>
+    <td align="center"><a href="mailto:ThiruVishagan.dev@gmail.com"><img src="./assets/contact/email.svg" height="54" alt="Email" /></a></td>
+    <td align="center"><a href="https://github.com/ThiruVishagan10"><img src="./assets/contact/github.svg" height="54" alt="GitHub" /></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/thiru-vishagan/"><img src="./assets/contact/linkedin.svg" height="54" alt="LinkedIn" /></a></td>
+  </tr>
+</table>
+
 <!-- ══════════ 02 · BOOT TERMINAL ══════════ -->
 <p align="center">
   <img src="./assets/terminal.svg" width="700" alt="Boot terminal" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<img src="./assets/divider.svg" width="88%" alt="" />
 
 <!-- ══════════ 03 · ABOUT ══════════ -->
 <a id="-about"></a>
@@ -42,23 +53,23 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
 | **Leveling up** | Docker · Redis · gRPC · System Design |
 | **Off-screen** | Gym · Football · Gaming · Startups |
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<img src="./assets/divider.svg" width="88%" alt="" />
 
 <!-- ══════════ 04 · TECH STACK ══════════ -->
 <a id="-stack"></a>
 <h2>❯&nbsp;&nbsp;stack</h2>
 
 <p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Tech stack — Backend, Frontend, Cloud, Databases, AI, Tools" />
+  <img src="./assets/stack.svg" width="88%" alt="Tech stack — Backend, Frontend, Cloud, Databases, AI, Tools" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<img src="./assets/divider.svg" width="88%" alt="" />
 
 <!-- ══════════ 05 · FEATURED PROJECTS ══════════ -->
 <a id="-projects"></a>
 <h2>❯&nbsp;&nbsp;projects</h2>
 
-<table width="100%">
+<table align="center" width="90%">
   <tr>
     <td width="50%">
       <a href="https://github.com/ThiruVishagan10/ideapulse">
@@ -85,63 +96,40 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
   </tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<img src="./assets/divider.svg" width="88%" alt="" />
 
 <!-- ══════════ 06 · GITHUB ANALYTICS ══════════ -->
 <a id="-analytics"></a>
 <h2>❯&nbsp;&nbsp;analytics</h2>
-
-<table width="100%">
-  <tr>
-    <td width="58%" valign="top">
-      <img width="100%" alt="Vishagan's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ThiruVishagan10&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&title_color=E8C25A&icon_color=C89B32&text_color=DED6C2&bg_color=0A0A0B&border_color=3A3320&border_radius=16" />
-    </td>
-    <td width="42%" valign="top">
-      <img width="100%" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThiruVishagan10&layout=compact&langs_count=8&title_color=E8C25A&text_color=DED6C2&bg_color=0A0A0B&border_color=3A3320&border_radius=16" />
-    </td>
-  </tr>
-</table>
 
 <p align="center">
   <img width="480" alt="Contribution streak" src="https://github-readme-streak-stats.herokuapp.com/?user=ThiruVishagan10&background=0A0A0B&border=3A3320&border_radius=16&stroke=3A3320&ring=E8C25A&fire=E0A23A&currStreakNum=F5EFE0&currStreakLabel=E8C25A&sideNums=F5EFE0&sideLabels=DED6C2&dates=8C846F&excludeDaysLabel=8C846F" />
 </p>
 
 <p align="center">
-  <img width="100%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ThiruVishagan10&bg_color=0A0A0B&color=E8C25A&title_color=E8C25A&line=E8C25A&point=FBEBB0&area=true&area_color=C89B32&hide_border=true&radius=16&custom_title=Contribution%20Graph" />
+  <img width="88%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ThiruVishagan10&bg_color=0A0A0B&color=E8C25A&title_color=E8C25A&line=E8C25A&point=FBEBB0&area=true&area_color=C89B32&hide_border=true&radius=16&custom_title=Contribution%20Graph" />
 </p>
 
 <p align="center">
-  <img width="100%" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ThiruVishagan10&theme=gruvbox&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+  <img width="88%" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ThiruVishagan10&theme=gruvbox&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
 </p>
 
 <!-- Snake contribution animation — populated by .github/workflows/snake.yml (output branch) -->
 <p align="center">
-  <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/ThiruVishagan10/ThiruVishagan10/output/snake.svg" />
+  <img width="88%" alt="Contribution snake" src="https://raw.githubusercontent.com/ThiruVishagan10/ThiruVishagan10/output/snake.svg" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<img src="./assets/divider.svg" width="88%" alt="" />
 
 <!-- ══════════ 07 · ROADMAP ══════════ -->
 <a id="-roadmap"></a>
 <h2>❯&nbsp;&nbsp;roadmap</h2>
 
 <p align="center">
-  <img src="./assets/roadmap.svg" width="100%" alt="2026 ROADMAP" />
+  <img src="./assets/roadmap.svg" width="88%" alt="2026 ROADMAP" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-<!-- ══════════ 08 · CONTACT ══════════ -->
-<a id="-contact"></a>
-<h2>❯&nbsp;&nbsp;contact</h2>
-
-<table align="center">
-  <tr>
-    <td align="center"><a href="mailto:ThiruVishagan.dev@gmail.com"><img src="./assets/contact/email.svg" height="54" alt="Email" /></a></td>
-    <td align="center"><a href="https://github.com/ThiruVishagan10"><img src="./assets/contact/github.svg" height="54" alt="GitHub" /></a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/thiru-vishagan/"><img src="./assets/contact/linkedin.svg" height="54" alt="LinkedIn" /></a></td>
-  </tr>
-</table>
+<img src="./assets/divider.svg" width="88%" alt="" />
 
 <!--
    ⌘ You found the source. The moon favours the curious.
