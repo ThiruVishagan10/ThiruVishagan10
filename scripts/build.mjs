@@ -302,7 +302,7 @@ ${contactCells}
   <img src="./assets/terminal.svg" width="700" alt="Boot terminal" />
 </p>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 03 · ABOUT ══════════ -->
 <a id="-about"></a>
@@ -316,7 +316,7 @@ ${cfg.about.body}
 |:--|:--|
 ${facts}
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 04 · TECH STACK ══════════ -->
 <a id="-stack"></a>
@@ -326,7 +326,7 @@ ${facts}
   <img src="./assets/stack.svg" width="88%" alt="Tech stack — Backend, Frontend, Cloud, Databases, AI, Tools" />
 </p>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 05 · FEATURED PROJECTS ══════════ -->
 <a id="-projects"></a>
@@ -335,7 +335,7 @@ ${facts}
 <table align="center" width="90%">
 ${projRows}</table>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 06 · GITHUB ANALYTICS ══════════ -->
 <a id="-analytics"></a>
@@ -358,7 +358,7 @@ ${projRows}</table>
   <img width="88%" alt="Contribution snake" src="https://raw.githubusercontent.com/${u}/${u}/output/snake.svg" />
 </p>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 07 · ROADMAP ══════════ -->
 <a id="-roadmap"></a>
@@ -368,7 +368,7 @@ ${projRows}</table>
   <img src="./assets/roadmap.svg" width="88%" alt="${escAttr(cfg.roadmap.title)}" />
 </p>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!--
    ⌘ You found the source. The moon favours the curious.

@@ -36,7 +36,7 @@
   <img src="./assets/terminal.svg" width="700" alt="Boot terminal" />
 </p>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 03 · ABOUT ══════════ -->
 <a id="-about"></a>
@@ -53,7 +53,7 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
 | **Leveling up** | Docker · Redis · gRPC · System Design |
 | **Off-screen** | Gym · Football · Gaming · Startups |
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 04 · TECH STACK ══════════ -->
 <a id="-stack"></a>
@@ -63,7 +63,7 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
   <img src="./assets/stack.svg" width="88%" alt="Tech stack — Backend, Frontend, Cloud, Databases, AI, Tools" />
 </p>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 05 · FEATURED PROJECTS ══════════ -->
 <a id="-projects"></a>
@@ -96,7 +96,7 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
   </tr>
 </table>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 06 · GITHUB ANALYTICS ══════════ -->
 <a id="-analytics"></a>
@@ -119,7 +119,7 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
   <img width="88%" alt="Contribution snake" src="https://raw.githubusercontent.com/ThiruVishagan10/ThiruVishagan10/output/snake.svg" />
 </p>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!-- ══════════ 07 · ROADMAP ══════════ -->
 <a id="-roadmap"></a>
@@ -129,7 +129,7 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
   <img src="./assets/roadmap.svg" width="88%" alt="2026 ROADMAP" />
 </p>
 
-<img src="./assets/divider.svg" width="88%" alt="" />
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
 <!--
    ⌘ You found the source. The moon favours the curious.
