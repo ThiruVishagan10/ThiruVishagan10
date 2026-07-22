@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1200 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="dline" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0"    stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="0.5"  stop-color="#00E5FF" stop-opacity="0.55"/>
+      <stop offset="0.5"  stop-color="#8B5CF6" stop-opacity="0.55"/>
+      <stop offset="1"    stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dsheen" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0"   stop-color="#F8FAFC" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#F8FAFC" stop-opacity="0.9"/>
+      <stop offset="1"   stop-color="#F8FAFC" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base rule -->
+  <rect x="0" y="19" width="1200" height="2" fill="url(#dline)"/>
+
+  <!-- travelling sheen -->
+  <rect x="0" y="19" width="240" height="2" fill="url(#dsheen)" opacity="0.7">
+    <animate attributeName="x" values="-240;1200" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- centre node -->
+  <g transform="translate(600 20)">
+    <circle r="4" fill="#0D1117" stroke="#00E5FF" stroke-width="1.5"/>
+    <circle r="4" fill="none" stroke="#00E5FF" stroke-width="1.5">
+      <animate attributeName="r" values="4;9;4" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

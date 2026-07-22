@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg"
+     font-family="'Segoe UI', system-ui, Helvetica, Arial, sans-serif">
+  <title>2026 ROADMAP — Go (done), PostgreSQL (done), REST APIs (done), Docker (learning), Redis (planned), gRPC (planned), Kafka (planned), Kubernetes (planned)</title>
+  <defs>
+    <linearGradient id="trackGold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C89B32"/><stop offset="1" stop-color="#FBEBB0"/></linearGradient>
+    <radialGradient id="nodeGold" cx="0.4" cy="0.35" r="0.7"><stop offset="0" stop-color="#FFF6D6"/><stop offset="0.55" stop-color="#E8C25A"/><stop offset="1" stop-color="#B8860B"/></radialGradient>
+    <linearGradient id="titleGoldR" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBEBB0"/><stop offset="1" stop-color="#C89B32"/></linearGradient>
+    <filter id="glowR" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <text x="40" y="50" font-size="25" font-weight="700" letter-spacing="2" fill="url(#titleGoldR)">2026 ROADMAP</text>
+  <text x="42" y="74" font-size="13" fill="#8C846F" font-family="monospace">// fundamentals → distributed systems</text>
+  <text x="900" y="34" font-size="11" letter-spacing="1.5" fill="#8C846F" font-family="monospace">MILESTONES</text>
+  <text x="1160" y="34" text-anchor="end" font-size="15" font-weight="700" fill="#E8C25A" font-family="monospace">44%</text>
+  <rect x="900" y="44" width="260" height="8" rx="4" fill="#2A2620"/>
+  <rect x="900" y="44" width="0" height="8" rx="4" fill="url(#trackGold)"><animate attributeName="width" values="0;114" dur="1.4s" begin="0.3s" fill="freeze"/></rect>
+  <line x1="80" y1="170" x2="1120" y2="170" stroke="#E8C25A" stroke-opacity="0.12" stroke-width="3"/>
+  <line x1="525.7" y1="170" x2="1120" y2="170" stroke="#8C846F" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="2 9"/>
+  <line x1="80" y1="170" x2="525.7" y2="170" stroke="url(#trackGold)" stroke-width="4" stroke-linecap="round" filter="url(#glowR)" stroke-dasharray="445.7" stroke-dashoffset="445.7"><animate attributeName="stroke-dashoffset" values="445.7;0" dur="1.4s" begin="0.3s" fill="freeze"/></line>
+  <g transform="translate(80.0 170)"><circle r="18" fill="url(#nodeGold)" stroke="#FBEBB0" stroke-opacity="0.5"/><path d="M-7 0 l5 5.5 l9 -11" fill="none" stroke="#17130A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="26" stroke-dashoffset="26"><animate attributeName="stroke-dashoffset" values="26;0" dur="0.4s" begin="0.7s" fill="freeze"/></path></g>
+  <g transform="translate(228.6 170)"><circle r="18" fill="url(#nodeGold)" stroke="#FBEBB0" stroke-opacity="0.5"/><path d="M-7 0 l5 5.5 l9 -11" fill="none" stroke="#17130A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="26" stroke-dashoffset="26"><animate attributeName="stroke-dashoffset" values="26;0" dur="0.4s" begin="1.0s" fill="freeze"/></path></g>
+  <g transform="translate(377.1 170)"><circle r="18" fill="url(#nodeGold)" stroke="#FBEBB0" stroke-opacity="0.5"/><path d="M-7 0 l5 5.5 l9 -11" fill="none" stroke="#17130A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="26" stroke-dashoffset="26"><animate attributeName="stroke-dashoffset" values="26;0" dur="0.4s" begin="1.3s" fill="freeze"/></path></g>
+  <g transform="translate(525.7 170)"><circle r="18" fill="none" stroke="#E0A23A" stroke-width="2.5"><animate attributeName="r" values="18;30" dur="2.2s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.2s" begin="1.6s" repeatCount="indefinite"/></circle><circle r="18" fill="#14120E" stroke="#E0A23A" stroke-width="2.5"/><circle r="5.5" fill="#E0A23A"><animate attributeName="opacity" values="1;0.35;1" dur="1.6s" begin="1.6s" repeatCount="indefinite"/></circle></g>
+  <g transform="translate(674.3 170)"><circle r="15" fill="#14120E" stroke="#E8C25A" stroke-opacity="0.35" stroke-width="1.5"/><circle r="2.5" fill="#8C846F"/></g>
+  <g transform="translate(822.9 170)"><circle r="15" fill="#14120E" stroke="#E8C25A" stroke-opacity="0.35" stroke-width="1.5"/><circle r="2.5" fill="#8C846F"/></g>
+  <g transform="translate(971.4 170)"><circle r="15" fill="#14120E" stroke="#E8C25A" stroke-opacity="0.35" stroke-width="1.5"/><circle r="2.5" fill="#8C846F"/></g>
+  <g transform="translate(1120.0 170)"><circle r="15" fill="#14120E" stroke="#E8C25A" stroke-opacity="0.35" stroke-width="1.5"/><circle r="2.5" fill="#8C846F"/></g>
+  <g text-anchor="middle">
+    <text x="80.0" y="212" font-size="14.5" font-weight="600" fill="#E8C25A">Go</text>
+    <text x="228.6" y="212" font-size="14.5" font-weight="600" fill="#E8C25A">PostgreSQL</text>
+    <text x="377.1" y="212" font-size="14.5" font-weight="600" fill="#E8C25A">REST APIs</text>
+    <text x="525.7" y="212" font-size="14.5" font-weight="600" fill="#E0A23A">Docker</text>
+    <text x="674.3" y="212" font-size="14.5" font-weight="600" fill="#9A9384">Redis</text>
+    <text x="822.9" y="212" font-size="14.5" font-weight="600" fill="#9A9384">gRPC</text>
+    <text x="971.4" y="212" font-size="14.5" font-weight="600" fill="#9A9384">Kafka</text>
+    <text x="1120.0" y="212" font-size="14.5" font-weight="600" fill="#9A9384">Kubernetes</text>
+    <text x="80.0" y="232" font-size="10" letter-spacing="1.5" fill="#8C846F" font-family="monospace">DONE</text>
+    <text x="228.6" y="232" font-size="10" letter-spacing="1.5" fill="#8C846F" font-family="monospace">DONE</text>
+    <text x="377.1" y="232" font-size="10" letter-spacing="1.5" fill="#8C846F" font-family="monospace">DONE</text>
+    <text x="525.7" y="232" font-size="10" letter-spacing="1.5" fill="#B78B3A" font-family="monospace">LEARNING</text>
+    <text x="674.3" y="232" font-size="10" letter-spacing="1.5" fill="#6E675A" font-family="monospace">PLANNED</text>
+    <text x="822.9" y="232" font-size="10" letter-spacing="1.5" fill="#6E675A" font-family="monospace">PLANNED</text>
+    <text x="971.4" y="232" font-size="10" letter-spacing="1.5" fill="#6E675A" font-family="monospace">PLANNED</text>
+    <text x="1120.0" y="232" font-size="10" letter-spacing="1.5" fill="#6E675A" font-family="monospace">PLANNED</text>
+  </g>
+  <g font-family="monospace" font-size="11" transform="translate(40 278)">
+    <circle cx="6" cy="-4" r="5" fill="url(#nodeGold)"/><text x="18" y="0" fill="#9A9384">shipped</text>
+    <circle cx="112" cy="-4" r="5" fill="#14120E" stroke="#E0A23A" stroke-width="2"/><text x="124" y="0" fill="#9A9384">in progress</text>
+    <circle cx="248" cy="-4" r="5" fill="#14120E" stroke="#E8C25A" stroke-opacity="0.4" stroke-width="1.5"/><text x="260" y="0" fill="#9A9384">planned</text>
+  </g>
+</svg>

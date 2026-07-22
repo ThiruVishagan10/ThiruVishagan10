@@ -1,0 +1,43 @@
+<svg viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg"
+     font-family="'SF Mono','JetBrains Mono',Consolas,'Courier New',monospace">
+  <title>PROJECT SELENE — Boot Terminal</title>
+  <defs>
+    <linearGradient id="tGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBEBB0"/><stop offset="0.5" stop-color="#E8C25A"/><stop offset="1" stop-color="#C89B32"/></linearGradient>
+    <radialGradient id="tGlow" cx="0.5" cy="0" r="0.9"><stop offset="0" stop-color="#E8C25A" stop-opacity="0.10"/><stop offset="1" stop-color="#0A0A0B" stop-opacity="0"/></radialGradient>
+    <filter id="tShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/></filter>
+    <clipPath id="c1"><rect x="34" y="84" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="0.40s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="34" y="115" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="1.25s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="34" y="146" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="2.10s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="34" y="177" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="2.95s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="34" y="208" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="3.80s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="34" y="239" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="4.65s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="34" y="270" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="5.50s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c8"><rect x="34" y="301" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="6.35s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c9"><rect x="34" y="332" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="7.20s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c10"><rect x="34" y="363" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="8.05s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c11"><rect x="34" y="394" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="8.90s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c12"><rect x="34" y="425" width="0" height="26"><animate attributeName="width" values="0;620" dur="0.55s" begin="9.75s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <g filter="url(#tShadow)"><rect x="10" y="10" width="880" height="500" rx="16" fill="#0C0C0E" stroke="#E8C25A" stroke-opacity="0.16"/></g>
+  <rect x="10" y="10" width="880" height="500" rx="16" fill="url(#tGlow)"/>
+  <path d="M10 26 A16 16 0 0 1 26 10 H874 A16 16 0 0 1 890 26 V50 H10 Z" fill="#151310"/>
+  <line x1="10" y1="50" x2="890" y2="50" stroke="#E8C25A" stroke-opacity="0.14"/>
+  <circle cx="36" cy="30" r="6" fill="#E8C25A"/><circle cx="58" cy="30" r="6" fill="#C89B32"/><circle cx="80" cy="30" r="6" fill="#6E5417"/>
+  <text x="450" y="35" text-anchor="middle" font-size="13" fill="#8C846F" letter-spacing="1">selene@profile — zsh</text>
+  <g font-size="18">
+    <g clip-path="url(#c1)"><text x="40" y="103" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="103" fill="#F5EFE0">boot</text></g>
+    <g clip-path="url(#c2)"><circle cx="72" cy="128" r="4.5" fill="#E8C25A"/><text x="86" y="134" fill="#A29B8A">System Online</text></g>
+    <g clip-path="url(#c3)"><text x="40" y="165" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="165" fill="#F5EFE0">whoami</text></g>
+    <g clip-path="url(#c4)"><text x="66" y="196" fill="#E8C25A" font-weight="700">Vishagan</text></g>
+    <g clip-path="url(#c5)"><text x="40" y="227" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="227" fill="#F5EFE0">role</text></g>
+    <g clip-path="url(#c6)"><text x="66" y="258" fill="#E8C25A" font-weight="700">Software Engineer</text></g>
+    <g clip-path="url(#c7)"><text x="40" y="289" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="289" fill="#F5EFE0">stack</text></g>
+    <g clip-path="url(#c8)"><text x="66" y="320" fill="#D8D0BC" font-weight="400">Go  ·  Python  ·  TypeScript</text></g>
+    <g clip-path="url(#c9)"><text x="40" y="351" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="351" fill="#F5EFE0">current_project</text></g>
+    <g clip-path="url(#c10)"><text x="66" y="382" fill="#E8C25A" font-weight="700">Task Manager (Go)</text></g>
+    <g clip-path="url(#c11)"><text x="40" y="413" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="413" fill="#F5EFE0">mission</text></g>
+    <g clip-path="url(#c12)"><text x="66" y="444" fill="#D8D0BC" font-weight="400">Build scalable systems.</text></g>
+    <text x="40" y="475" fill="url(#tGold)" font-weight="700" opacity="0">❯<set attributeName="opacity" to="1" begin="10.60s"/></text>
+    <rect x="66" y="459" width="11" height="21" fill="#E8C25A" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="10.60s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

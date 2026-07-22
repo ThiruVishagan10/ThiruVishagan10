@@ -1,0 +1,11 @@
+# dependencies (the generator is dependency-free, but just in case)
+node_modules/
+npm-debug.log*
+
+# snake output is generated on the `output` branch, not committed here
+dist/
+
+# os / editor cruft
+.DS_Store
+Thumbs.db
+*.log

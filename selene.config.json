@@ -1,0 +1,79 @@
+{
+  "$comment": "PROJECT SELENE — single source of truth. Edit this file, then `git push`. The Build Profile GitHub Action regenerates README.md + the data-driven SVGs and commits them. You never edit generated markup by hand.",
+
+  "identity": {
+    "name": "Vishagan",
+    "role": "Software Engineer",
+    "username": "ThiruVishagan10",
+    "subtitle": "Building scalable products that solve real problems."
+  },
+
+  "about": {
+    "intro": "I enjoy solving engineering problems by building **scalable backend systems**, **cloud-native applications**, and **AI-powered software**.",
+    "body": "Focused on **Go** and **distributed systems**, I like owning products end-to-end — from database schema to deploy. On a mission to become a **world-class Backend Engineer** while shipping things people actually use.",
+    "facts": [
+      { "label": "Building",    "value": "Task Manager · IdeaPulse · Go URL Shortener · PathBridge" },
+      { "label": "Exploring",   "value": "Distributed Systems · Cloud-Native · Applied AI" },
+      { "label": "Leveling up", "value": "Docker · Redis · gRPC · System Design" },
+      { "label": "Off-screen",  "value": "Gym · Football · Gaming · Startups" }
+    ]
+  },
+
+  "terminal": [
+    { "cmd": "boot",            "out": "System Online",              "kind": "status" },
+    { "cmd": "whoami",          "out": "Vishagan",                   "kind": "value" },
+    { "cmd": "role",            "out": "Software Engineer",          "kind": "value" },
+    { "cmd": "stack",           "out": "Go  ·  Python  ·  TypeScript", "kind": "text" },
+    { "cmd": "current_project", "out": "Task Manager (Go)",          "kind": "value" },
+    { "cmd": "mission",         "out": "Build scalable systems.",    "kind": "text" }
+  ],
+
+  "projects": [
+    {
+      "name": "IdeaPulse", "initial": "I", "repo": "ideapulse", "status": "in-progress",
+      "desc": ["Capture, refine, and validate startup ideas — turning raw", "sparks into ranked, actionable concepts."],
+      "tech": ["Next.js", "TypeScript", "Supabase", "OpenAI"]
+    },
+    {
+      "name": "Go URL Shortener", "initial": "/", "initialFont": "mono", "repo": "go-url-shortener", "status": "shipped",
+      "desc": ["A fast URL shortener in Go with custom slugs, click", "analytics, and a clean REST API."],
+      "tech": ["Go", "PostgreSQL", "REST", "Docker"]
+    },
+    {
+      "name": "Task Manager", "tag": "(Go)", "initial": "T", "repo": "task-manager", "status": "in-progress",
+      "desc": ["A backend-first task manager API in Go — auth, projects,", "and tasks on a PostgreSQL core."],
+      "tech": ["Go", "PostgreSQL", "REST", "JWT"]
+    },
+    {
+      "name": "PathBridge", "initial": "P", "repo": "pathbridge", "status": "planning",
+      "desc": ["A guided learning-path builder that bridges where you are", "to where you want to be — one milestone at a time."],
+      "tech": ["React", "Node.js", "MongoDB"]
+    }
+  ],
+
+  "roadmap": {
+    "title": "2026 ROADMAP",
+    "subtitle": "// fundamentals → distributed systems",
+    "milestones": [
+      { "label": "Go",         "status": "done" },
+      { "label": "PostgreSQL", "status": "done" },
+      { "label": "REST APIs",  "status": "done" },
+      { "label": "Docker",     "status": "learning" },
+      { "label": "Redis",      "status": "planned" },
+      { "label": "Kubernetes", "status": "planned" }
+    ]
+  },
+
+  "contact": {
+    "email": "ThiruVishagan.dev@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/thiru-vishagan/",
+    "portfolio": "",
+    "resume": ""
+  },
+
+  "_notes": {
+    "contact": "Fill linkedin / portfolio / resume with full URLs to make those buttons appear. Empty = hidden. github is derived from identity.username.",
+    "static_assets": "banner.svg, divider.svg, stack.svg and the *-cyan variants are hand-authored and NOT regenerated. The generator only rewrites: terminal.svg, projects/*.svg, roadmap.svg, contact/*.svg and README.md.",
+    "theme": "Black & Gold. To retheme, edit the token block in scripts/build.mjs."
+  }
+}

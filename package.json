@@ -1,0 +1,12 @@
+{
+  "name": "project-selene",
+  "version": "1.0.0",
+  "description": "PROJECT SELENE — a config-driven animated GitHub profile. Edit selene.config.json and push.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "author": "Vishagan (@ThiruVishagan10)",
+  "license": "MIT"
+}

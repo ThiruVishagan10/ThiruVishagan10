@@ -1,0 +1,13 @@
+<svg viewBox="0 0 220 54" fill="none" xmlns="http://www.w3.org/2000/svg"
+     font-family="'Segoe UI', system-ui, Helvetica, Arial, sans-serif">
+  <title>Email</title>
+  <defs>
+    <linearGradient id="cgemail" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17140E"/><stop offset="1" stop-color="#100E0A"/></linearGradient>
+    <linearGradient id="ctemail" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBEBB0"/><stop offset="0.55" stop-color="#E8C25A"/><stop offset="1" stop-color="#C89B32"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="218" height="52" rx="14" fill="url(#cgemail)" stroke="#E8C25A" stroke-opacity="0.22"/>
+  <rect x="12" y="11" width="32" height="32" rx="9" fill="url(#ctemail)"/>
+  <text x="28" y="33" text-anchor="middle" font-size="15" font-weight="800" fill="#17130A">@</text>
+  <text x="56" y="26" font-size="14.5" font-weight="700" fill="#E8C25A">Email</text>
+  <text x="56" y="42" font-size="11" fill="#8C846F" font-family="monospace">krithik@metronis.space</text>
+</svg>
