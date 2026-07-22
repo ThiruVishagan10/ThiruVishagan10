@@ -229,14 +229,16 @@ function contactChannels() {
 
 function buildContactButton(ch) {
   const id = ch.key;
-  return `<svg viewBox="0 0 220 54" fill="none" xmlns="http://www.w3.org/2000/svg"
+  const inner = Math.max(ch.label.length * 8.2, ch.sub.length * 6.7); // label 14.5 bold vs sub 11 mono
+  const W = Math.round(Math.max(150, 56 + inner + 16));
+  return `<svg viewBox="0 0 ${W} 54" fill="none" xmlns="http://www.w3.org/2000/svg"
      font-family="'Segoe UI', system-ui, Helvetica, Arial, sans-serif">
   <title>${escAttr(ch.label)}</title>
   <defs>
     <linearGradient id="cg${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${T.glass0}"/><stop offset="1" stop-color="${T.glass1}"/></linearGradient>
     <linearGradient id="ct${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${T.goldPale}"/><stop offset="0.55" stop-color="${T.gold}"/><stop offset="1" stop-color="${T.goldDeep}"/></linearGradient>
   </defs>
-  <rect x="1" y="1" width="218" height="52" rx="14" fill="url(#cg${id})" stroke="${T.gold}" stroke-opacity="0.22"/>
+  <rect x="1" y="1" width="${W - 2}" height="52" rx="14" fill="url(#cg${id})" stroke="${T.gold}" stroke-opacity="0.22"/>
   <rect x="12" y="11" width="32" height="32" rx="9" fill="url(#ct${id})"/>
   <text x="28" y="33" text-anchor="middle" font-size="15" font-weight="800" fill="${T.goldInk}"${ch.gf}>${esc(ch.glyph)}</text>
   <text x="56" y="26" font-size="14.5" font-weight="700" fill="${T.gold}">${esc(ch.label)}</text>
