@@ -5,6 +5,9 @@ npm-debug.log*
 # snake output is generated on the `output` branch, not committed here
 dist/
 
+# local Claude Code settings — never publish
+.claude/
+
 # os / editor cruft
 .DS_Store
 Thumbs.db

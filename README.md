@@ -137,8 +137,9 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
 
 <table align="center">
   <tr>
-    <td align="center"><a href="mailto:krithik@metronis.space"><img src="./assets/contact/email.svg" height="54" alt="Email" /></a></td>
+    <td align="center"><a href="mailto:ThiruVishagan.dev@gmail.com"><img src="./assets/contact/email.svg" height="54" alt="Email" /></a></td>
     <td align="center"><a href="https://github.com/ThiruVishagan10"><img src="./assets/contact/github.svg" height="54" alt="GitHub" /></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/thiru-vishagan/"><img src="./assets/contact/linkedin.svg" height="54" alt="LinkedIn" /></a></td>
   </tr>
 </table>
 
