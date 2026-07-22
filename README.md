@@ -25,9 +25,9 @@
 <p align="center"><sub><samp>❯ ./say-hi.sh</samp></sub></p>
 <table align="center">
   <tr>
-    <td align="center"><a href="mailto:ThiruVishagan.dev@gmail.com"><img src="./assets/contact/email.svg" height="54" alt="Email" /></a></td>
-    <td align="center"><a href="https://github.com/ThiruVishagan10"><img src="./assets/contact/github.svg" height="54" alt="GitHub" /></a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/thiru-vishagan/"><img src="./assets/contact/linkedin.svg" height="54" alt="LinkedIn" /></a></td>
+    <td align="center"><a href="mailto:ThiruVishagan.dev@gmail.com"><img src="./assets/contact/email.svg" width="253" height="54" alt="Email" /></a></td>
+    <td align="center"><a href="https://github.com/ThiruVishagan10"><img src="./assets/contact/github.svg" width="179" height="54" alt="GitHub" /></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/thiru-vishagan/"><img src="./assets/contact/linkedin.svg" width="150" height="54" alt="LinkedIn" /></a></td>
   </tr>
 </table>
 

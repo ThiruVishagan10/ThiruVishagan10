@@ -227,11 +227,13 @@ function contactChannels() {
   return out;
 }
 
+// shared width so the SVG root, its viewBox, and the README <img> all agree
+const contactBtnW = (ch) => Math.round(Math.max(150, 56 + Math.max(ch.label.length * 8.2, ch.sub.length * 6.7) + 16));
+
 function buildContactButton(ch) {
   const id = ch.key;
-  const inner = Math.max(ch.label.length * 8.2, ch.sub.length * 6.7); // label 14.5 bold vs sub 11 mono
-  const W = Math.round(Math.max(150, 56 + inner + 16));
-  return `<svg viewBox="0 0 ${W} 54" fill="none" xmlns="http://www.w3.org/2000/svg"
+  const W = contactBtnW(ch);
+  return `<svg width="${W}" height="54" viewBox="0 0 ${W} 54" fill="none" xmlns="http://www.w3.org/2000/svg"
      font-family="'Segoe UI', system-ui, Helvetica, Arial, sans-serif">
   <title>${escAttr(ch.label)}</title>
   <defs>
@@ -263,7 +265,7 @@ function buildReadme(channels) {
   const factsRows = cfg.about.facts.map(f => `        <tr><td valign="top"><b>${esc(f.label)}</b></td><td valign="top">&nbsp;&nbsp;${esc(f.value)}</td></tr>`).join('\n');
 
   const contactCells = channels.map(ch =>
-    `    <td align="center"><a href="${escAttr(ch.href)}"><img src="./assets/contact/${ch.key}.svg" height="54" alt="${escAttr(ch.label)}" /></a></td>`
+    `    <td align="center"><a href="${escAttr(ch.href)}"><img src="./assets/contact/${ch.key}.svg" width="${contactBtnW(ch)}" height="54" alt="${escAttr(ch.label)}" /></a></td>`
   ).join('\n');
 
   const A = (p) => `https://github-readme-stats.vercel.app/api${p}`;
