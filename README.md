@@ -14,8 +14,8 @@
 <p align="center">
   <a href="#-about" title="cd ~/about"><samp>about</samp></a> &nbsp;·&nbsp;
   <a href="#-stack" title="ls ./stack"><samp>stack</samp></a> &nbsp;·&nbsp;
-  <a href="#-projects" title="git log --oneline"><samp>projects</samp></a> &nbsp;·&nbsp;
-  <a href="#-analytics" title="top"><samp>analytics</samp></a> &nbsp;·&nbsp;
+ <!-- <a href="#-projects" title="git log --oneline"><samp>projects</samp></a> &nbsp;·&nbsp;
+  <a href="#-analytics" title="top"><samp>analytics</samp></a> &nbsp;·&nbsp; -->
   <a href="#-roadmap" title="cat roadmap.2026"><samp>roadmap</samp></a> &nbsp;·&nbsp;
   <a href="#-contact" title="./say-hi.sh"><samp>contact</samp></a>
 </p>
@@ -74,7 +74,7 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
 
 <p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
 
-<!-- ══════════ 05 · FEATURED PROJECTS ══════════ -->
+<!-- Projects
 <a id="-projects"></a>
 <h2>❯&nbsp;&nbsp;projects</h2>
 
@@ -105,9 +105,9 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
   </tr>
 </table>
 
-<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p> -->
 
-<!-- ══════════ 06 · GITHUB ANALYTICS ══════════ -->
+<!-- ══════════ 06 · GITHUB ANALYTICS ══════════
 <a id="-analytics"></a>
 <h2>❯&nbsp;&nbsp;analytics</h2>
 
@@ -123,12 +123,12 @@ Focused on **Go** and **distributed systems**, I like owning products end-to-end
   <img width="88%" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ThiruVishagan10&theme=gruvbox&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
 </p>
 
-<!-- Snake contribution animation — populated by .github/workflows/snake.yml (output branch) -->
+<!-- Snake contribution animation — populated by .github/workflows/snake.yml (output branch) 
 <p align="center">
   <img width="88%" alt="Contribution snake" src="https://raw.githubusercontent.com/ThiruVishagan10/ThiruVishagan10/output/snake.svg" />
 </p>
 
-<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p>
+<p align="center"><img src="./assets/divider.svg" width="88%" alt="" /></p> -->
 
 <!-- ══════════ 07 · ROADMAP ══════════ -->
 <a id="-roadmap"></a>
