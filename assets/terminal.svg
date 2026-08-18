@@ -34,7 +34,7 @@
     <g clip-path="url(#c7)"><text x="40" y="289" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="289" fill="#F5EFE0">stack</text></g>
     <g clip-path="url(#c8)"><text x="66" y="320" fill="#D8D0BC" font-weight="400">Go  ·  Python  ·  TypeScript</text></g>
     <g clip-path="url(#c9)"><text x="40" y="351" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="351" fill="#F5EFE0">current_project</text></g>
-    <g clip-path="url(#c10)"><text x="66" y="382" fill="#E8C25A" font-weight="700">Task Manager (Go)</text></g>
+    <g clip-path="url(#c10)"><text x="66" y="382" fill="#E8C25A" font-weight="700">URL Shortener (Go)</text></g>
     <g clip-path="url(#c11)"><text x="40" y="413" fill="url(#tGold)" font-weight="700">❯</text><text x="66" y="413" fill="#F5EFE0">mission</text></g>
     <g clip-path="url(#c12)"><text x="66" y="444" fill="#D8D0BC" font-weight="400">Build scalable systems.</text></g>
     <text x="40" y="475" fill="url(#tGold)" font-weight="700" opacity="0">❯<set attributeName="opacity" to="1" begin="10.60s"/></text>
